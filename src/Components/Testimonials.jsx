@@ -15,11 +15,11 @@ const Testimonials = () => {
     <Carousel>
       <CarouselContent>
         <CarouselItem>
-          <div className="self-stretch overflow-hidden flex flex-col items-center justify-start pt-[178px] pb-14 pr-[76px] pl-[50px] box-border gap-[39px] max-w-full mt-[-114px] text-justify text-lg text-fuchsia-950 font-poppins mq750:gap-[19px] mq750:pl-[25px] mq750:pr-[38px] mq750:pb-9 mq750:box-border">
+          <div className="w-[1000px] h-[600px] mx-auto overflow-hidden flex flex-col items-center justify-start pt-[178px] pb-14 pr-[76px] pl-[50px] box-border gap-[39px] max-w-full mt-[-114px] text-justify text-lg text-fuchsia-950 font-poppins mq750:gap-[19px] mq750:pl-[25px] mq750:pr-[38px] mq750:pb-9 mq750:box-border">
             <div className="w-64 flex flex-row items-start justify-end">
               <b className="h-[41px] w-[213px] relative inline-block shrink-0">
-                <span>Student</span>
-                <span className="text-black"> Testimonials</span>
+                <span className="font-bold text-xl">Student</span>
+                <span className="text-black font-bold tect-xl"> Testimonials</span>
               </b>
             </div>
             <div className="self-stretch flex flex-row flex-wrap items-end justify-between pt-[91px] px-0 pb-0 box-border relative gap-[20px] max-w-full text-center text-smi text-black">
@@ -32,8 +32,8 @@ const Testimonials = () => {
               <button className="cursor-pointer [border:none] p-0 bg-[transparent] h-[50px] w-[50px] relative">
                 <div className="absolute top-[0px] left-[0px] bg-gainsboro-100 w-full h-full" />
               </button>
-              <div className="w-[971px] flex flex-col items-start justify-start min-h-[225px] max-w-full">
-                <div className="self-stretch h-[104px] relative inline-block shrink-0">
+              <div className="w-[971px] pt-0 flex flex-col items-start justify-start min-h-[225px] max-w-full">
+                <div className="w-[800px] h-[104px] left-[50px] relative inline-block shrink-0">
                   Working with Runway Aviation has been a game-changer for me.
                   Their in-depth knowledge of the aviation industry, combined
                   with their tailored approach to career development. They took

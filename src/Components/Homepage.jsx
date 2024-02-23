@@ -9,6 +9,8 @@ import Testimonials from './Testimonials'
 import Blog from './Blog'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
+import img1 from'../images/plane.jpeg'
 
 
 const Homepage = () => {
@@ -20,12 +22,12 @@ const Homepage = () => {
     <CarouselContent>
 
       <CarouselItem>
-         <section className="self-stretch overflow-hidden flex flex-col items-end justify-start pt-[296px] pb-[102px] pr-[46px] pl-7 box-border relative gap-[210px_0px] max-w-full text-left text-lg text-purple-100 font-poppins mq750:gap-[210px_0px] mq750:pr-[23px] mq750:box-border mq1050:pt-48 mq1050:pb-[66px] mq1050:box-border mq450:gap-[210px_0px] mq450:pt-[125px] mq450:pb-[43px] mq450:box-border">
+         <section className="w-full h-full overflow-hidden flex flex-col items-end justify-start pt-[296px] pb-[102px] pr-[46px] pl-7 box-border relative gap-[210px_0px] max-w-full text-left text-lg text-purple-100 font-poppins mq750:gap-[210px_0px] mq750:pr-[23px] mq750:box-border mq1050:pt-48 mq1050:pb-[66px] mq1050:box-border mq450:gap-[210px_0px] mq450:pt-[125px] mq450:pb-[43px] mq450:box-border">
       <div className="w-full h-full absolute my-0 mx-[!important] top-[0px] right-[0px] bottom-[0px] left-[0px]">
         <img
           className="absolute h-full w-full top-[10px] right-[50px] bottom-[0px] left-[50px] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
-          src={aero}
+          src={img1}
         />
         <div className="absolute h-full w-full top-[4px] right-[0px] bottom-[0px] left-[0px] bg-white-50 z-[1]" />
       </div>
@@ -45,11 +47,13 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+          <Link to="/Contact">
           <button className="cursor-pointer [border:none] py-2 pr-5 pl-6 bg-fuchsia-950 rounded-full overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-fuchsia-600">
             <b className="relative text-sm font-poppins text-white text-center">
               CONTACT US
             </b>
           </button>
+          </Link>
         </div>
       </div>
     </section> 
@@ -81,11 +85,13 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <button className="cursor-pointer [border:none] py-2 pr-5 pl-6 bg-fuchsia-950 rounded-11xl overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-mediumvioletred">
+          <Link to="/Contact">
+          <button className="cursor-pointer [border:none] py-2 pr-5 pl-6 bg-fuchsia-950 rounded-full overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-mediumvioletred">
             <b className="relative text-sm font-poppins text-white text-center">
               CONTACT US
             </b>
           </button>
+          </Link>
         </div>
       </div>
       
@@ -118,11 +124,13 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <button className="cursor-pointer [border:none] py-2 pr-5 pl-6 bg-fuchsia-950 rounded-11xl overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-mediumvioletred">
+          <Link to="/Contact">
+          <button className="cursor-pointer [border:none] py-2 pr-5 pl-6 bg-fuchsia-950 rounded-full overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-mediumvioletred">
             <b className="relative text-sm font-poppins text-white text-center">
               CONTACT US
             </b>
           </button>
+          </Link>
         </div>
       </div>
     </section> 

@@ -1,88 +1,81 @@
-import React from 'react'
-import image from '../images/aero.jpg'
+import React from "react";
+import image from "../images/aero.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Admission = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <section className="self-stretch overflow-hidden flex flex-row items-center justify-start pt-[160px] pb-14 pr-[76px] pl-[50px] box-border max-w-full text-left text-lg text-fuchsia-950 font-poppins mq750:pt-[57px] mq750:pb-[57px] mq750:box-border mq1225:pl-6 mq1225:pr-6 mq1225:box-border">
-      <div className="w-[1296px] flex flex-row items-start justify-start gap-[0px_42px] max-w-full mq750:gap-[0px_42px] mq1225:flex-wrap">
-        <div className="w-[610px] flex flex-col items-start justify-start gap-[57px_0px] min-w-[610px] max-w-full mq750:gap-[57px_0px] mq750:min-w-full mq1225:flex-1">
-          <b className="w-[220px] h-[35px] relative inline-block shrink-0 pt-5">
-            <span>Admission</span>
-            <span className="text-black"> in Runway</span>
-          </b>
-          <div className="self-stretch h-96 relative text-black text-justify inline-block shrink-0 text-base">
-            <p className="m-0">
-              <b>
-                <span>Basic Criteria to join Aviation</span>
-                <span> </span>
-              </b>
-            </p>
-            <p className="m-0 text-xl">
-              <b>
-                <span>&nbsp;</span>
-              </b>
-            </p>
-            <p className="m-0 text-smi">
-              <b>
-                <span className="text-smi">Education:</span>
-                <span className="text-xl">{` `}</span>
-              </b>
-              <span>
-                <span>
-                  Completion of the +2 level (or equivalent) with a focus on
-                  physics and mathematics.
-                </span>
-              </span>
-            </p>
-            <p className="m-0">
-              <span>
-                <span>&nbsp;</span>
-              </span>
-            </p>
-            <p className="m-0">
-              <span>
-                <b className="font-poppins">{`Age: `}</b>
-                <span>Must be 18 years or older.</span>
-              </span>
-            </p>
-            <p className="m-0">
-              <span>
-                <span>&nbsp;</span>
-              </span>
-            </p>
-            <p className="m-0">
-              <span>
-                <b className="font-poppins">Language Proficiency:</b>
-                <span className="font-poppins"> Fluency in English</span>
-                <b>.</b>
-              </span>
-            </p>
-            <p className="m-0">
-              <span>
-                <b>&nbsp;</b>
-              </span>
-            </p>
-            <p className="m-0">
-              <span>
-                <b>Medical Examination:</b>
-                <span>
-                  {" "}
-                  Must pass an aviation medical examination conducted by a
-                  designated aviation medical examiner.
-                </span>
-              </span>
-            </p>
-          </div>
+    <>
+      <div className="w-[1200px] h-[550px] mt-10 pl-5 pr-5 items-center flex justify-center bg-gray-100 rounded-xl mx-auto transition ease-in-out delay-300  hover:bg-fuchsia-100 duration-300">
+        <div
+          data-aos="zoom-in"
+          className=" w-[400px] h-[100px] top-[730px] left-[560px] align-text-top absolute text-2xl font-bold inline-block shrink-0 pt-5 text-fuchsia-950 font-poppins z-10"
+        >
+          <span> ADMISSION</span>
+          <span className=" text-black font-poppins"> ON RUNWAY 02</span>
+        </div>
+        <div
+          data-aos="fade-down"
+          className="w-[607px] h-[261px] left-[200px] top-[850px] absolute text-justify"
+        >
+          <span className="text-black text-xl font-bold font-poppins">
+            Basic Criteria to join Aviation
+          </span>
+          <span className="text-black text-xl font-bold font-['Poppins']">
+            <br />
+            <br />
+          </span>
+          <span className="text-black text-base font-bold font-poppins">
+            Education:
+          </span>
+          <span className="text-black text-xl font-bold font-['Poppins']">
+            {" "}
+          </span>
+          <span className="text-black text-base font-normal font-poppins">
+            Completion of the +2 level (or equivalent) with a focus on physics
+            and mathematics.
+            <br />
+            <br />
+          </span>
+          <span className="text-black text-base font-bold font-poppins">
+            Age:{" "}
+          </span>
+          <span className="text-black text-base font-normal font-poppins">
+            Must be 18 years or older.
+            <br />
+            <br />
+          </span>
+          <span className="text-black text-base font-bold font-poppins">
+            Language Proficiency:
+          </span>
+          <span className="text-black text-base font-normal font-poppins">
+            {" "}
+            Fluency in English
+          </span>
+          <span className="text-black text-base font-bold font-poppins">
+            .<br />
+            <br />
+            Medical Examination:
+          </span>
+          <span className="text-black text-base font-normal font-poppins">
+            {" "}
+            Must pass an aviation medical examination conducted by a designated
+            aviation medical examiner.
+            <br />
+          </span>
         </div>
         <img
-          className="h-[462px] flex-1 relative rounded-11xl max-w-full overflow-hidden object-cover min-w-[419px] mq750:min-w-full"
-          loading="eager"
-          alt=""
+          data-aos="fade-up"
+          className="w-[500px] h-[403px] left-[830px] top-[790px] absolute rounded-xl transition hover:scale-90"
           src={image}
         />
       </div>
-    </section>
-  )
-}
+    </>
+  );
+};
 
-export default Admission
+export default Admission;
