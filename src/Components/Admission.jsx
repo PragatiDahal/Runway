@@ -10,69 +10,63 @@ const Admission = () => {
   }, []);
   return (
     <>
-      <div className="w-[1200px] h-[550px] mt-10 pl-5 pr-5 items-center flex justify-center bg-gray-100 rounded-xl mx-auto transition ease-in-out delay-300  hover:bg-fuchsia-100 duration-300">
-        <div
-          data-aos="zoom-in"
-          className=" w-[400px] h-[100px] top-[730px] left-[560px] align-text-top absolute text-2xl font-bold inline-block shrink-0 pt-5 text-fuchsia-950 font-poppins z-10"
-        >
-          <span> ADMISSION</span>
-          <span className=" text-black font-poppins"> ON RUNWAY 02</span>
-        </div>
-        <div
-          data-aos="fade-down"
-          className="w-[607px] h-[261px] left-[200px] top-[850px] absolute text-justify"
-        >
-          <span className="text-black text-xl font-bold font-poppins">
-            Basic Criteria to join Aviation
-          </span>
-          <span className="text-black text-xl font-bold font-['Poppins']">
-            <br />
-            <br />
-          </span>
-          <span className="text-black text-base font-bold font-poppins">
-            Education:
-          </span>
-          <span className="text-black text-xl font-bold font-['Poppins']">
-            {" "}
-          </span>
-          <span className="text-black text-base font-normal font-poppins">
-            Completion of the +2 level (or equivalent) with a focus on physics
-            and mathematics.
-            <br />
-            <br />
-          </span>
-          <span className="text-black text-base font-bold font-poppins">
-            Age:{" "}
-          </span>
-          <span className="text-black text-base font-normal font-poppins">
-            Must be 18 years or older.
-            <br />
-            <br />
-          </span>
-          <span className="text-black text-base font-bold font-poppins">
-            Language Proficiency:
-          </span>
-          <span className="text-black text-base font-normal font-poppins">
-            {" "}
-            Fluency in English
-          </span>
-          <span className="text-black text-base font-bold font-poppins">
-            .<br />
-            <br />
-            Medical Examination:
-          </span>
-          <span className="text-black text-base font-normal font-poppins">
-            {" "}
-            Must pass an aviation medical examination conducted by a designated
-            aviation medical examiner.
-            <br />
-          </span>
-        </div>
+      <div data-aos= "fade-up" data-duration-aos="2000" className="w-[1502px] h-[756px] relative bg-white pt-7">
         <img
-          data-aos="fade-up"
-          className="w-[500px] h-[403px] left-[830px] top-[790px] absolute rounded-xl transition hover:scale-90"
+          className="w-[643px] h-[423px] left-[796px] top-[150px] absolute transition ease-in-out delay-150  hover:scale-110  duration-300"
           src={image}
         />
+        <div data-aos="zoom-in" data-duration-aos="2000" className="w-[479px] h-[82px] left-[533px] top-[42px] absolute">
+          <span className="text-fuchsia-950 text-[32px] font-bold font-poppins">
+            ADMISSION
+          </span><span className="text-black text-[32px] font-bold font-poppins"> ON RUNWAY 02 </span>
+        </div>
+        <div className="w-[450px] h-2 left-[526px] top-[83px] absolute bg-stone-900" />
+        <div className="w-[400px] h-[5px] left-[97px] top-[184px] absolute bg-stone-900" />
+        <div className="w-[369px] h-[34px] left-[97px] top-[150px] absolute text-justify text-black text-2xl font-bold font-poppins">
+          Basic Criteria to join aviation
+        </div>
+        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[100px] left-[75px] top-[226px] absolute bg-pink-100 rounded-xl">
+          <div className="w-[535px] h-[73px] left-[27px] top-[13px] absolute text-justify">
+            <span className="text-black text-xl font-bold font-poppins">
+              Education:</span><span className="text-black text-xl font-normal font-poppins">
+               Completion of the +2 level (or equivalent) with a focus on physics
+              and mathematics.
+            </span>
+          </div>
+        </div>
+        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[70px] left-[75px] top-[352px] absolute bg-pink-100 rounded-xl">
+          <div className="w-[478px] h-[37px] left-[27px] top-[16px] absolute text-justify">
+            <span className="text-black text-xl font-bold font-poppins">
+              Age:
+            </span>
+            <span className="text-black text-xl font-normal font-poppins">
+              Must be 18 years or older.
+            </span>
+          </div>
+        </div>
+        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[70px] left-[75px] top-[448px] absolute bg-pink-100 rounded-xl">
+          <div className="w-[438px] h-[33px] left-[22px] top-[18px] absolute text-justify">
+            <span className="text-black text-xl font-bold font-poppins">
+              Language Proficiency:
+              
+            </span>
+            <span className="text-black text-xl font-normal font-poppins">
+              Fluency in English.
+            </span>
+          </div>
+        </div>
+        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[105px] left-[75px] top-[560px] absolute bg-pink-100 rounded-xl">
+          <div className="w-[527px] h-[87px] left-[22px] top-[9px] absolute text-justify">
+            <span className="text-black text-xl font-bold font-poppins">
+              Medical Examination:
+              
+            </span>
+            <span className="text-black text-xl font-normal font-poppins">
+              Must pass an aviation medical examination conducted by a
+              designated aviation medical examiner.
+            </span>
+          </div>
+        </div>
       </div>
     </>
   );

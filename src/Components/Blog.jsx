@@ -10,7 +10,7 @@ const Blog = () => {
   }, []);
   return (
     <div className="w-[1523px] h-[1576px] relative bg-white">
-      <div data-aos ="zoom-in"className="w-[181px] h-10 left-[658px] top-[49px] absolute">
+      <div data-aos ="zoom-in"   data-aos-duration="2000" className="w-[181px] h-10 left-[658px] top-[49px] absolute">
         <span className="text-fuchsia-950 text-xl font-bold font-poppins">
           FROM{" "}
         </span>
@@ -19,7 +19,7 @@ const Blog = () => {
         </span>
       </div>
       {/* blog1 */}
-      <div data-aos="flip-up" className="w-[455px] h-[544px] left-[31px] top-[179px] absolute  ">
+      <div data-aos="flip-up" data-aos-duration="2000" className="w-[455px] h-[544px] left-[31px] top-[179px] absolute  ">
         <div className="w-[455px] h-[544px] left-0 top-0 absolute bg-zinc-300 rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-100 duration-300" />
         <div className="w-[414.69px] h-[77.01px] left-[1px] top-[354px] absolute text-center text-black text-base font-normal font-poppins">
           Are you dreaming of soaring through the skies, exploring new horizons,
@@ -36,7 +36,7 @@ const Blog = () => {
       </div>
 
       {/* blog2 */}
-      <div data-aos="flip-up" className="w-[455px] h-[544px] left-[32px] top-[811px] absolute">
+      <div data-aos="flip-up" data-aos-duration="2000"  className="w-[455px] h-[544px] left-[32px] top-[811px] absolute">
         <div className="w-[455px] h-[544px] left-0 top-0 absolute bg-zinc-300 rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-100 duration-300" />
         <div className="w-[402px] h-[79px] left-[22px] top-[354px] absolute text-center text-black text-base font-normal font-poppins">
           With the global aviation industry experiencing rapid growth, there is
@@ -53,7 +53,7 @@ const Blog = () => {
       </div>
 
       {/* Blog3 */}
-      <div data-aos="flip-up"  className="w-[455px] h-[544px] left-[527px] top-[811px] absolute">
+      <div data-aos="flip-up" data-aos-duration="2000"  className="w-[455px] h-[544px] left-[527px] top-[811px] absolute">
         <div className="w-[455px] h-[544px] left-0 top-0 absolute bg-zinc-300 rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-100 duration-300" />
         <div className="w-[414.69px] h-[77.01px] left-[1px] top-[354px] absolute text-center text-black text-base font-normal font-poppins">
           Aviation careers offer competitive salaries and attractive benefits
@@ -71,7 +71,7 @@ const Blog = () => {
       </div>
 
       {/* Blog4 */}
-      <div data-aos="flip-up"  className="w-[455px] h-[544px] left-[1043px] top-[811px] absolute">
+      <div data-aos="flip-up" data-aos-duration="2000"  className="w-[455px] h-[544px] left-[1043px] top-[811px] absolute">
         <div className="w-[455px] h-[544px] left-0 top-0 absolute bg-zinc-300 rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-100 duration-300" />
         <div className="w-[414.69px] h-[77.01px] left-[1px] top-[354px] absolute text-center text-black text-base font-normal font-poppins">
           The field of aviation offers a wide range of career paths to suit
@@ -90,7 +90,7 @@ const Blog = () => {
       </div>
 
       {/* Blog5 */}
-      <div data-aos="flip-up"  className="w-[455px] h-[544px] left-[527px] top-[186px] absolute">
+      <div data-aos="flip-up" data-aos-duration="2000"   className="w-[455px] h-[544px] left-[527px] top-[186px] absolute">
         <div className="w-[455px] h-[544px] left-0 top-0 absolute bg-zinc-300 rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-100 duration-300" />
         <div className="w-[414.69px] h-[77.01px] left-[18px] top-[358px] absolute text-center text-black text-base font-normal font-poppins">
           Aviation opens doors to endless adventures and exploration. As a
@@ -108,7 +108,7 @@ const Blog = () => {
       </div>
 
       {/* Blog6 */}
-      <div data-aos="flip-up" className="w-[455px] h-[544px] left-[1029px] top-[179px] absolute">
+      <div data-aos="flip-up"data-aos-duration="2000"  className="w-[455px] h-[544px] left-[1029px] top-[179px] absolute">
         <div className="w-[455px] h-[544px] left-0 top-0 absolute bg-zinc-300 rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-100 duration-300" />
         <div className="w-[414.69px] h-[77.01px] left-[14px] top-[356px] absolute text-center text-black text-base font-normal font-poppins">
           Flying an aircraft requires skill, precision, and quick
@@ -123,13 +123,6 @@ const Blog = () => {
         />
         <div className="w-[181px] h-[25px] left-[117px] top-[312px] absolute text-center text-fuchsia-950 text-base font-bold font-poppins">
           Thrilling Challenges
-        </div>
-      </div>
-      <div className="w-[170px] px-2.5 pt-[15px] pb-[35px] left-[695px] top-[1403px] absolute justify-center items-center inline-flex">
-        <div className="w-[150px] h-[55px] relative">
-          <button data-aos="fade-up"  className="w-[150px] h-[55px] left-[27px] top-[14px] absolute bg-fuchsia-950 text-center  font-poppins text-white text-base font-bold font-poppins rounded-[30px] transition ease-in-out delay-150  hover:bg-pink-300 duration-300" >
-          View All
-          </button>
         </div>
       </div>
     </div>

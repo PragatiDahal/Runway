@@ -18,14 +18,14 @@ const Homepage = () => {
 
     <>
   
-   <Carousel>
+   <Carousel className= " w-full">
     <CarouselContent>
 
       <CarouselItem>
          <section className="w-full h-full overflow-hidden flex flex-col items-end justify-start pt-[296px] pb-[102px] pr-[46px] pl-7 box-border relative gap-[210px_0px] max-w-full text-left text-lg text-purple-100 font-poppins mq750:gap-[210px_0px] mq750:pr-[23px] mq750:box-border mq1050:pt-48 mq1050:pb-[66px] mq1050:box-border mq450:gap-[210px_0px] mq450:pt-[125px] mq450:pb-[43px] mq450:box-border">
       <div className="w-full h-full absolute my-0 mx-[!important] top-[0px] right-[0px] bottom-[0px] left-[0px]">
         <img
-          className="absolute h-full w-full top-[10px] right-[50px] bottom-[0px] left-[50px] max-w-full overflow-hidden max-h-full object-cover"
+          className="absolute h-full w-full max-w-full overflow-hidden max-h-full object-cover"
           alt=""
           src={img1}
         />
