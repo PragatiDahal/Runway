@@ -15,13 +15,11 @@ const Admission = () => {
           className="w-[643px] h-[423px] left-[796px] top-[150px] absolute transition ease-in-out delay-150  hover:scale-110  duration-300"
           src={image}
         />
-        <div data-aos="zoom-in" data-duration-aos="2000" className="w-[479px] h-[82px] left-[533px] top-[42px] absolute">
-          <span className="text-fuchsia-950 text-[32px] font-bold font-poppins">
-            ADMISSION
-          </span><span className="text-black text-[32px] font-bold font-poppins"> ON RUNWAY 02 </span>
+        <div data-aos="zoom-in" data-duration-aos="2000" className="pl-24 relative top-10 ">
+          <span className="text-fuchsia-950 text-[40px] font-bold font-poppins underline underline-offset-8">
+            ADMISSION  ON RUNWAY 02 </span>
         </div>
-        <div className="w-[450px] h-2 left-[526px] top-[83px] absolute bg-stone-900" />
-        <div className="w-[400px] h-[5px] left-[97px] top-[184px] absolute bg-stone-900" />
+    
         <div className="w-[369px] h-[34px] left-[97px] top-[150px] absolute text-justify text-black text-2xl font-bold font-poppins">
           Basic Criteria to join aviation
         </div>
