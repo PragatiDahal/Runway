@@ -1,89 +1,91 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link, NavLink } from "react-router-dom";
-import { DropdownMenu, DropdownMenuTrigger,DropdownMenuSeparator,DropdownMenuLabel,DropdownMenuContent,DropdownMenuItem } from "./ui/dropdown-menu";
 
 const Navbar = () => {
-    return (
-      <>
-         {/* <DropdownMenu>
-          <DropdownMenuTrigger>
-          <li>
-              <NavLink
-                className="w-[134px] h-5 left-[850px] top-[30px] absolute text-black font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/About"
-              >
-                About
-              </NavLink>
-            </li>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-     {/* <DropdownMenuLabel className=" w-[134px] h-5 left-[850px]">About Runway</DropdownMenuLabel>  */}
-    {/* <DropdownMenuSeparator />
-    <DropdownMenuItem>About</DropdownMenuItem>
-    <DropdownMenuItem>Admission</DropdownMenuItem>
-    <DropdownMenuItem>Testimonials</DropdownMenuItem>
-    <DropdownMenuItem>Blog</DropdownMenuItem>
-  </DropdownMenuContent>
-   </DropdownMenu> */}
-         <nav className="flex-row justify-between items-center bg-fuchsia-950 px-10 h-16  text-pink-100 sticky top-0 z-20 gap
-        -4">
-          <ul>
-          <li className="w-[76px] h-[31px] left-[192px] top-[18px]  text-pink-100 text-xl font-bold font-['Poppins'] relative tracking-[0.5em] leading-[100%] whitespace-nowrap flex flex-row items-center justify-center py-1.5 px-0w-[326px]  max-w-full">
-           RUNWAY 02
-          </li>
-            <li>
-              <NavLink
-                className="w-[90px] h-5 left-[550px] top-[30px] absolute text-pink-100 font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/Homepage"
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="w-[135px] h-5 left-[650px] top-[30px] absolute text-pink-100 font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/Course"
-              >
-                Courses
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="w-[134px] h-5 left-[750px] top-[30px] absolute text-pink-100 font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/Service"
-              >
-                Services
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="w-[134px] h-5 left-[850px] top-[30px] absolute text-pink-100 font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/About"
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="w-[134px] h-5 left-[950px] top-[30px] absolute text-pink-100 font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/Gallery"
-              >
-                Gallery
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="w-[134px] h-5 left-[1050px] top-[30px] absolute text-pink-100 font-bold flex-col items-start justify-start pt-0 px-0 pb-0.5 box-border max-w-full text-base text-blue-gray-100 font-poppins  leading-[100%] inline-block shrink-0"
-                to="/Contact"
-              >
-                Contact
-              </NavLink>
-            </li>
-          </ul>
-        </nav>  
-      </>
-    );
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
   };
-  
-  export default Navbar;
-  
+  return (
+    <>
+      <nav className="bg-fuchsia-950 p-4 font-poppins z-20">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="flex items-center">
+          <Link to="/" className="text-white text-xl font-bold hover:text-blue-400 transition ease-in duration-200">
+            Runway 02
+          </Link>
+        </div>
+
+        <div className="hidden md:flex space-x-8 ">
+          <Link to="/" className="text-white hover:text-blue-400 transition ease-in duration-200 ">
+            Home
+          </Link>
+          <Link to="/service" className="text-white hover:text-blue-400 transition ease-in duration-200">
+            Services
+          </Link>
+          <Link to="/course" className="text-white hover:text-blue-400 transition ease-in duration-200">
+            Course
+          </Link>
+          <Link to="/about" className="text-white hover:text-blue-400 transition ease-in duration-200">
+            About
+          </Link>
+          <Link to="/gallery" className="text-white hover:text-blue-400 transition ease-in duration-200">
+            Gallery
+          </Link>
+          <Link to="/contact" className="text-white hover:text-blue-400 transition ease-in duration-200">
+            Contact
+          </Link>
+        </div>
+
+        <div className="md:hidden">
+          <button
+            className="text-white focus:outline-none"
+            onClick={toggleMenu}
+          >
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        {isMenuOpen && (
+          <div className="md:hidden absolute top-16 right-0 bg-gray-700 p-4 shadow-lg">
+            <Link to="/" className="block text-white mb-2">
+              Home
+            </Link>
+            <Link to="/service" className="block text-white mb-2">
+              Services
+            </Link>
+            <Link to="/course" className="block text-white mb-2">
+              Course
+            </Link>
+            <Link to="/about" className="block text-white mb-2">
+              About
+            </Link>
+            <Link to="/gallery" className="block text-white mb-2">
+              Gallery
+            </Link>
+            <Link to="/contact" className="block text-white mb-2">
+              Contact
+            </Link>
+          </div>
+        )}
+      </div>
+    </nav>
+    </>
+  );
+};
+
+export default Navbar;

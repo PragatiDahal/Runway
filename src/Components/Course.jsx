@@ -11,18 +11,14 @@ const Courses = () => {
   }, []);
   return (
     <div className="w-[1523px] h-[1768px] relative bg-pink-100">
-      <div data-aos="zoom-in-up" data-aos-duration="2000" className="w-[137px] h-9 left-[741px] top-[59px] absolute">
-        <span className="text-fuchsia-950 text-xl font-bold font-poppins">
-          Our
-        </span>
-        <span className="text-black text-xl font-bold font-poppins"> Courses
-        </span>
+      <div data-aos="zoom-in-up" data-aos-duration="2000" className="flex items-center justify-center py-8">
+       <h1 className="font-bold text-4xl">Courses</h1>
       </div>
       {/* Course1 */}
-      <div data-aos="fade-up"data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[98px] top-[205px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+      <div data-aos="fade-up" data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[98px] top-[205px] absolute ">
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-5px absolute rounded-2xl"
           src={image}
         />
         <div className="w-[221.54px] h-[27.63px] left-[13.02px] top-[265px] absolute text-black text-base font-bold font-poppins">
@@ -31,6 +27,7 @@ const Courses = () => {
         <div className="w-28 h-[79.34px] left-[13.02px] top-[328px] absolute text-black text-base font-bold font-poppins">
           course time
           <br />
+          12 months
         </div>
         
         <div className="w-28 h-[79.34px] left-[143px] top-[330px] absolute text-black text-base font-bold font-poppins">
@@ -47,9 +44,9 @@ const Courses = () => {
 
        {/* Course2 */}
       <div data-aos="fade-up" data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[99px] top-[761px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute rounded-2xl"
           src={image}
         />
         <div className="w-[221.54px] h-[27.63px] left-[13.02px] top-[265px] absolute text-black text-base font-bold font-poppins">
@@ -73,9 +70,9 @@ const Courses = () => {
 
        {/* Course3 */}
       <div data-aos="fade-up" data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[577px] top-[761px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute rounded-2xl"
           src={image}
         />
         <div className="w-[221.54px] h-[27.63px] left-[13.02px] top-[265px] absolute text-black text-base font-bold font-poppins">
@@ -98,9 +95,9 @@ const Courses = () => {
       </div>
       {/* Course4 */}
       <div data-aos="fade-up" data-aos-duration="2000"  className="w-[396.02px] h-[447px] left-[577px] top-[1291px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute rounded-2xl"
           src={image}
         />
         <div className="w-[222px] h-[47px] left-[15px] top-[261px] absolute text-black text-base font-bold font-poppins">
@@ -123,9 +120,9 @@ const Courses = () => {
       </div>
        {/* Course5 */}
       <div data-aos="fade-up" data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[1036px] top-[761px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute rounded-2xl"
           src={image}
         />
         <div className="w-[231px] h-[47px] left-[26px] top-[261px] absolute text-black text-base font-bold font-poppins">
@@ -148,9 +145,9 @@ const Courses = () => {
       </div>
       {/* Course6 */}
       <div data-aos="fade-up" data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[564px] top-[205px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute rounded-2xl"
           src={image}
         />
         <div className="w-[221.54px] h-[27.63px] left-[13.02px] top-[265px] absolute text-black text-base font-bold font-poppins">
@@ -173,9 +170,9 @@ const Courses = () => {
       </div>
       {/* Course7 */}
       <div data-aos="fade-up" data-aos-duration="2000" className="w-[396.02px] h-[447px] left-[1035px] top-[205px] absolute">
-        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200" />
+        <div className="w-[396.02px] h-[447px] left-0 top-0 absolute bg-zinc-200 rounded-3xl transition hover:bg-purple-200 duration-300 hover:scale-110" />
         <img
-          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute"
+          className="w-[395px] h-[234.48px] left-[1.02px] top-0 absolute rounded-2xl"
           src={image}
         />
         <div className="w-[221.54px] h-[27.63px] left-[13.02px] top-[265px] absolute text-black text-base font-bold font-poppins">
@@ -239,7 +236,7 @@ const Courses = () => {
        {/* button for CPL */}
       <div  className="p-0.5 left-[1318px] top-[1019px] absolute flex-col justify-center items-center gap-2.5 inline-flex">
         <div className="w-[101px] h-[45px] relative">
-          <Link to="CPL">
+          <Link to="/CPL">
         <button className="w-[101px] h-[45px] left-0 top-0 absolute bg-fuchsia-950 rounded-[30px] text-white text-[15px] font-bold font-poppins" >
           Open
           </button>

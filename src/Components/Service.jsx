@@ -8,7 +8,7 @@ function Cards({
   className,
 }) {
   return (
-    <div className={`rounded-lg p-6 hover:bg-red-400 duration-500 ease-in-out shadow-sm ${className}`}>
+    <div className={`rounded-lg p-6 hover:bg-pink-200 duration-500 ease-in-out shadow-sm ${className}`}>
       <div className="overflow-hidden rounded-lg">
         <img
           className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto"
@@ -30,7 +30,7 @@ const Service = () => {
   return (
     <>
       <div className='flex justify-center items-center py-8'>
-        <h1 className='font-bold text-4xl'>Servicessservicesss</h1>
+        <h1 className='font-bold text-4xl'>Services</h1>
       </div>
 
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-3 sm:p-8">
@@ -52,7 +52,30 @@ const Service = () => {
         description="The institute guides students through the entire admission process, including application submission, document preparation, and interview preparation, ensuring that they meet all requirements for admission to their chosen aviation programs."
         thumbnailSrc="https://media.istockphoto.com/id/1281334322/photo/aircraft-mechanic-checking-jet-engine-of-the-airplane.jpg?s=2048x2048&w=is&k=20&c=dt2JyJxfbRq_DKllMW9DMn6LtwU6E2GzSTPrpPLuKz4="
       />
-      
+      <Cards
+        className="bg-[#f3faff]"
+        heading="Guidance in Appropriate Flight School Selection."
+        description="Runway 02 Aviation Institute helps students identify suitable universities and aviation schools overseas that offer high-quality education and training programs in aviation-related disciplines."
+        thumbnailSrc="https://media.istockphoto.com/id/1281334322/photo/aircraft-mechanic-checking-jet-engine-of-the-airplane.jpg?s=2048x2048&w=is&k=20&c=dt2JyJxfbRq_DKllMW9DMn6LtwU6E2GzSTPrpPLuKz4="
+      />
+      <Cards
+        className="bg-[#f3faff]"
+        heading="Post-Arrival Support"
+        description="Runway 02 Aviation Institute continues to support students after their arrival abroad, providing assistance with settling into their new environment, resolving any initial challenges, and adjusting to academic and cultural differences."
+        thumbnailSrc="https://media.istockphoto.com/id/1281334322/photo/aircraft-mechanic-checking-jet-engine-of-the-airplane.jpg?s=2048x2048&w=is&k=20&c=dt2JyJxfbRq_DKllMW9DMn6LtwU6E2GzSTPrpPLuKz4="
+      />
+      <Cards
+        className="bg-[#f3faff]"
+        heading="Travel Arrangements"
+        description="The institute assists students in making travel arrangements, including booking flights, arranging airport transfers, and securing accommodation near their chosen aviation schools or universities."
+        thumbnailSrc="https://media.istockphoto.com/id/1281334322/photo/aircraft-mechanic-checking-jet-engine-of-the-airplane.jpg?s=2048x2048&w=is&k=20&c=dt2JyJxfbRq_DKllMW9DMn6LtwU6E2GzSTPrpPLuKz4="
+      />
+      <Cards
+        className="bg-[#f3faff]"
+        heading="Aviation Counseling"
+        description="Experienced counselors assist students in choosing the right aviation programs and universities abroad based on their interests, academic background, and career aspirations. Interaction and Experience Share.        "
+        thumbnailSrc="https://media.istockphoto.com/id/1281334322/photo/aircraft-mechanic-checking-jet-engine-of-the-airplane.jpg?s=2048x2048&w=is&k=20&c=dt2JyJxfbRq_DKllMW9DMn6LtwU6E2GzSTPrpPLuKz4="
+      />
     </div>
     </>
   )

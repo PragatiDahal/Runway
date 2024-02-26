@@ -1,57 +1,62 @@
 import React from 'react'
 import image from '../images/aero.jpg'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+function Cards({
+  className, thumbnailSrc, thumbnailAlt
+})
+{
+return(
+  <div className={`rounded-lg p-4 hover:bg-pink-100 duration-500 ease-in-out shadow-sm ${className}`}>
+      <div className="overflow-hidden rounded-lg">
+        <img
+          className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-2xl h-auto" data-aos="fade-down" data-aos-duration="2000"
+          src={thumbnailSrc}
+          alt={thumbnailAlt}
+        />
+      </div>
+      </div>
+)
+}
 const Gallery = () => {
-  
+  useEffect(() => {
+    AOS.init();
+  }, []);
     return (
-        <div className="self-stretch overflow-hidden flex flex-col items-center justify-start p-[13px] box-border gap-[132px] max-w-full text-justify text-lg text-fuchsia-950 font-poppins mq450:gap-[16px] mq750:gap-[33px] mq1225:gap-[66px]">
-          <b className="w-[143px] h-7 relative inline-block box-border pl-5 pr-5">
-            Gallery
-          </b>
-          <div className="w-[1097px] h-[1483px] flex flex-row flex-wrap items-center justify-center py-0 px-5 box-border relative gap-[79px] max-w-full text-mini text-white">
-            <img
-              className="h-[372px] w-[486px] absolute my-0 mx-[!important] top-[0px] left-[19.5px] object-cover"
-              loading="eager"
-              alt=""
-              src={image}
-            />
-            <img
-              className="h-[372px] w-[486px] absolute my-0 mx-[!important] top-[0px] left-[590.5px] object-cover"
-              loading="eager"
-              alt=""
-              src={image}
-            />
-            <img
-              className="h-[372px] w-[486px] absolute my-0 mx-[!important] top-[475px] left-[19.5px] object-cover"
-              loading="eager"
-              alt=""
-              src={image}
-            />
-            <img
-              className="h-[372px] w-[486px] absolute my-0 mx-[!important] top-[475px] left-[590.5px] object-cover"
-              loading="eager"
-              alt=""
-              src={image}
-            />
-            <img
-              className="h-[372px] w-[486px] absolute my-0 mx-[!important] top-[950px] left-[19.5px] object-cover"
-              loading="eager"
-              alt=""
-              src={image}
-            />
-            <img
-              className="h-[372px] w-[486px] absolute my-0 mx-[!important] top-[950px] left-[590.5px] object-cover"
-              loading="eager"
-              alt=""
-              src={image}
-            />
-            <div className="w-[212px] my-0 mx-[!important] absolute top-[1425px] left-[443px] flex flex-row items-center justify-end py-4 pr-[25px] pl-[60px] box-border whitespace-nowrap">
-              <div className="h-full w-full absolute my-0 mx-[!important] top-[0px] right-[0.5px] bottom-[0px] left-[-0.5px] rounded-full bg-fuchsia-950" />
-              <b className="h-[26px] flex-1 relative inline-block z-[1] text-left left-0">View All</b>
-            </div>
-          </div>
-        </div>
-  )
+      <>
+      <div className='flex justify-center items-center py-8'>
+        <h1  data-aos="zoom-in" data-aos-duration="2000"className='font-bold text-4xl'>Gallery</h1>
+      </div>
+
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-3 sm:p-8">
+      <Cards
+        className="bg-zinc-200" 
+        thumbnailSrc={image}
+      />
+      <Cards
+        className="bg-zinc-200" 
+        thumbnailSrc={image}
+      />
+      <Cards
+        className="bg-zinc-200" 
+        thumbnailSrc={image}
+      />
+       <Cards
+        className="bg-zinc-200" 
+        thumbnailSrc={image}
+      />
+       <Cards
+        className="bg-zinc-200" 
+        thumbnailSrc={image}
+      />
+       <Cards
+        className="bg-zinc-200" 
+        thumbnailSrc={image}
+      />
+    </div>
+    </>
+    )
 }
 
 export default Gallery

@@ -1,10 +1,11 @@
 import React from "react";
+import image from '../images/spl.jpg'
 
 const APL = () => {
   return (
     <div className="w-[1436px] h-[1390px] relative bg-white">
-      <div className="w-[281px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins']">
-        Private Pilot License (SPL)
+      <div className="w-[700px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins'] items-center justify-center">
+      <h1 className="font-bold text-2xl">The Airline Transport Pilot License (ATPL)</h1>
       </div>
       <img
         className="w-[595px] h-[359px] left-[420px] top-[132px] absolute rounded-[30px]"
