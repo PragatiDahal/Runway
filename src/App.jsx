@@ -13,8 +13,14 @@ import Blog from './Components/Blog'
 import Gallery from './Components/Gallery'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
-
-
+import SPL from './Components/SPL'
+import PPL from './Components/PPL'
+import NR from './Components/NR'
+import Hour from './Components/Hour'
+import APL from './Components/APL'
+import CPL from './Components/CPL';
+import IR from './Components/IR';
+import MER from './Components/MER'
 
 
 function App() {
@@ -33,6 +39,15 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<Navigate to='/'/>} />
+          <Route path="/Blog" element={<Blog/>} />
+          <Route path="/SPL" element={<SPL />}/>
+          <Route path="/PPL" element={<PPL/>} />
+          <Route path="/NR" element={<NR/>} />
+          <Route path="/CPL" element={<CPL/>} />
+          <Route path="/Hour" element={<Hour/>} />
+          <Route path="/IR" element={<IR/>} />
+          <Route path="/MER" element={<MER/>} />
+          <Route path="/APL" element={<APL/>} />
         </Routes>
       </BrowserRouter>
     </div>
