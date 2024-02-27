@@ -1,4 +1,8 @@
 const FeedbackCard = ({ content, name, title, img }) => (
+<<<<<<< HEAD
+=======
+
+>>>>>>> 051bdd1 (ch)
     <div className="flex justify-between  flex-col  px-10 py-12 rounded-[20px]  max-w-[370px]  mx-auto my-0 feedback-card">
       <img
         src={"https://i.imgur.com/rx3eOUo.png"}

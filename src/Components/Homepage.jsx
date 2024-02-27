@@ -1,13 +1,8 @@
-import React from 'react'
-import aero from '../images/aeroplane.jpg'
 import image from '../images/aero.jpg'
 import image1 from '../images/USA.jpg'
-import right from '../images/angle-left-icon.png'
-import left from '../images/angle-right-icon.png'
 import Admission from './Admission'
 import Blog from './Blog'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
-import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import img1 from'../images/plane.jpeg'
 
