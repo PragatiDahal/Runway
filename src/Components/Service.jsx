@@ -8,11 +8,7 @@ function Cards({
   className,
 }) {
   return (
-<<<<<<< HEAD
     <div className={`rounded-lg p-6 hover:bg-pink-200 duration-500 ease-in-out shadow-sm ${className}`}>
-=======
-    <div className={`rounded-lg p-6 hover:bg-blue-300 duration-500 ease-in-out shadow-sm ${className}`}>
->>>>>>> c87296a (changes)
       <div className="overflow-hidden rounded-lg">
         <img
           className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto"
