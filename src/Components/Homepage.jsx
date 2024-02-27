@@ -152,10 +152,6 @@ const Homepage = () => {
     <Blog />
    </section>
 
-   <section>
-    <Footer />
-   </section>
-
     </>
 
   

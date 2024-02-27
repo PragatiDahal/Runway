@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../images/license.jpg";
+import Card from './Card'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -10,6 +11,7 @@ const Courses = () => {
     AOS.init();
   }, []);
   return (
+<<<<<<< HEAD
     <div className="w-[1523px] h-[1768px] relative bg-pink-100">
       <div data-aos="zoom-in-up" data-aos-duration="2000" className="flex items-center justify-center py-8">
        <h1 className="font-bold text-4xl">Courses</h1>
@@ -264,6 +266,15 @@ const Courses = () => {
         </div>
       </div>
     </div>
+=======
+   <>
+   <div className="w-full  p-10 flex gap-4 ">
+
+    <Card />
+
+   </div>
+   </>
+>>>>>>> c87296a (changes)
   );
 };
 
