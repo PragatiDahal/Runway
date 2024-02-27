@@ -41,7 +41,6 @@ function App() {
           <Route path="/PPL" element={<PPL/>} />
           <Route path="/NR" element={<NR/>} />
           <Route path="/CPL" element={<CPL/>} />
-          <Route path="/Hour" element={<Hour/>} />
           <Route path="/IR" element={<IR/>} />
           <Route path="/MER" element={<MER/>} />
           <Route path="/APL" element={<APL/>} />

@@ -61,8 +61,8 @@ const Navbar = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16 right-0 bg-gray-700 p-4 shadow-lg">
-            <Link to="/" className="block text-white mb-2">
+          <div className="md:hidden absolute top-16 right-2 rounded-md w-full  bg-gray-700 pl-10 py-5 shadow-lg z-50">
+            <Link to="/" className="block text-white mb-2 hover:bg-gray-400 rounded-md">
               Home
             </Link>
             <Link to="/service" className="block text-white mb-2">
