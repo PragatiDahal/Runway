@@ -1,5 +1,5 @@
 import React from "react";
-import image from '../images/spl.jpg'
+
 
 const Hour = () => {
   return (

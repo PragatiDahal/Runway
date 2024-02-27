@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../images/aero.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -24,7 +23,7 @@ const Blog = () => {
           your ticket to turning those dreams into reality.
         </div>
         <img
-          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-110"
+          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-90 duration-1000"
           src={"https://images.unsplash.com/photo-1559711469-3395fc1dadb3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         />
         <div className="w-[397px] h-[25px] left-[22px] top-[307px] absolute text-center text-fuchsia-950 text-base font-bold font-poppins">
@@ -41,7 +40,7 @@ const Blog = () => {
           air traffic controllers, maintenance technicians, and more
         </div>
         <img
-          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-110"
+          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-90 duration-1000"
           src={"https://images.unsplash.com/photo-1530469353049-18df0403f42b?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         />
         <div className="w-[397px] h-[25px] left-[22px] top-[307px] absolute text-justify pl-4 text-fuchsia-950 text-base font-bold font-poppins">
@@ -59,7 +58,7 @@ const Blog = () => {
           experience and advance in their careers.
         </div>
         <img
-          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-110"
+          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-90 duration-1000"
           src={"https://images.unsplash.com/photo-1538688423619-a81d3f23454b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         />
         <div className="w-[397px] h-[25px] left-[22px] top-[307px] absolute text-justify pl-4 text-fuchsia-950 text-base font-bold font-poppins">
@@ -78,7 +77,7 @@ const Blog = () => {
           your passion and carve out a fulfilling career in the industry.
         </div>
         <img
-          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-110"
+          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-90 duration-1000"
           src={"https://images.unsplash.com/photo-1623945253439-f77e7591f9c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         />
         <div className="w-[397px] h-[25px] left-[22px] top-[307px] absolute text-center text-fuchsia-950 text-base font-bold font-poppins">
@@ -96,7 +95,7 @@ const Blog = () => {
           from above.
         </div>
         <img
-          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-110"
+          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-90 duration-1000"
           src={"https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         />
         <div className="w-[397px] h-[25px] left-[22px] top-[307px] absolute text-center text-fuchsia-950 text-base font-bold font-poppins">
@@ -115,7 +114,7 @@ const Blog = () => {
           challenges
         </div>
         <img
-          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-110"
+          className="w-[455px] h-[285px] left-0 top-0 absolute rounded-[30px] transition hover:scale-90 duration-1000"
           src={"https://images.unsplash.com/photo-1517341392804-5f6daad2d02d?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         />
         <div className="w-[181px] h-[25px] left-[117px] top-[312px] absolute text-center text-fuchsia-950 text-base font-bold font-poppins">

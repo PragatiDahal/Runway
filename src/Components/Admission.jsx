@@ -13,7 +13,7 @@ const Admission = () => {
       <div data-aos= "fade-up" data-duration-aos="2000" className="w-[1502px] h-[756px] relative bg-white pt-7">
         <img
           className="w-[643px] h-[423px] left-[796px] top-[150px] absolute transition ease-in-out delay-150  hover:scale-110  duration-300"
-          src={image}
+          src={"https://i.pinimg.com/564x/e7/c4/fe/e7c4fe825aa8ca7cababb2e4956c2b1f.jpg"}
         />
         <div data-aos="zoom-in" data-duration-aos="2000" className="pl-24 relative top-10 ">
           <span className="text-fuchsia-950 text-[40px] font-bold font-poppins underline underline-offset-8">
@@ -26,7 +26,8 @@ const Admission = () => {
         <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[100px] left-[75px] top-[226px] absolute bg-pink-100 rounded-xl">
           <div className="w-[535px] h-[73px] left-[27px] top-[13px] absolute text-justify">
             <span className="text-black text-xl font-bold font-poppins">
-              Education:</span><span className="text-black text-xl font-normal font-poppins">
+              Education:</span>
+              <span className="text-black text-xl font-normal font-poppins">
                Completion of the +2 level (or equivalent) with a focus on physics
               and mathematics.
             </span>

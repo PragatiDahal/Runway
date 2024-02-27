@@ -13,7 +13,7 @@ import Footer from './Components/Footer/Footer'
 import SPL from './Components/Course/SPL'
 import PPL from './Components/Course/PPL'
 import NR from './Components/Course/NR'
-import Hour from './Components/Hour'
+import Hour from './Components/Course/Hour'
 import APL from './Components/Course/APL'
 import CPL from './Components/Course/CPL';
 import IR from './Components/Course/IR';
