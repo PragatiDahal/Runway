@@ -28,7 +28,7 @@ function App() {
 
   return (
    
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden font-poppins'>
          <BrowserRouter>
         <Navbar />
         <Routes>
@@ -49,6 +49,7 @@ function App() {
           <Route path="/MER" element={<MER/>} />
           <Route path="/APL" element={<APL/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
        
