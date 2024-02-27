@@ -4,7 +4,7 @@ import Card from './Card'
 const Course = () => {
   return (
     <>
-    <div className='w-full flex gap-4 p-10'>
+    <div className='w-screen p-14'>
       <Card />
 
     </div>
