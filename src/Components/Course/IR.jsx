@@ -1,11 +1,10 @@
-import React from 'react'
-import image from "../images/spl.jpg"
+import React from "react";
 
-const PPL = () => {
+const IR = () => {
   return (
     <div className="w-[1436px] h-[1390px] relative bg-white">
-      <div className="w-[400px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins']">
-      <h1 className="font-bold text-2xl">Private Pilot License</h1>
+      <div className="w-[300px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins']">
+      <h1 className="font-bold text-2xl">Instrument Rating</h1>
       </div>
       <img
         className="w-[595px] h-[359px] left-[420px] top-[132px] absolute rounded-[30px]"
@@ -18,7 +17,12 @@ const PPL = () => {
             Course Overview: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-          The Private Pilot License (PPL) Training Program is designed for individuals with a Student Pilot License (SPL) aspiring to elevate their skills and obtain the PPL, a key milestone in becoming a licensed pilot. This comprehensive program encompasses theoretical and practical aspects of aviation to ensure candidates develop the knowledge and skills necessary for safe and confident flying.
+            The Instrument Rating (IR) Program is designed for pilots seeking
+            advanced qualifications to navigate and operate aircraft solely by
+            reference to instruments, without relying on external visual cues.
+            This program enhances pilots' abilities to safely fly in various
+            weather conditions, including low visibility, clouds, and adverse
+            weather.
           </span>
         </div>
       </div>
@@ -29,17 +33,15 @@ const PPL = () => {
             Course Modules: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            -Flight Training Hours
+            -Theoretical Knowledge
             <br />
-            -Aeronautical Knowledge
-            <br />
-            -Written Examinations Preparation
+            -Cockpit Instrumentation
             <br />
             -Practical Flight Training
             <br />
-            -Skills and Judgment Development
+            -Simulated Weather Conditions
             <br />
-            -Regulatory Compliance
+            -Air Traffic Control Interaction
           </span>
         </div>
       </div>
@@ -50,7 +52,15 @@ const PPL = () => {
             Course Outcome: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-          Upon successful completion of the program, candidates will have met the requirements for the Private Pilot License. Graduates gain the privilege to serve as pilot-in-command for personal or recreational flights, marking a significant achievement in their aviation journey. This PPL serves as a foundation for advanced certifications, allowing individuals to pursue diverse opportunities in aviation, from leisure flying to potential career paths.
+            Upon successful completion of both theoretical exams and practical
+            flight tests, pilots receive the Instrument Rating, unlocking the
+            capability to fly in conditions that would otherwise be unsafe for
+            visual flight. This qualification is essential for professional
+            pilots operating in diverse weather conditions and private pilots
+            aiming to enhance proficiency and safety margins. The IR Program
+            represents a significant advancement in flying skills, enabling
+            pilots to operate safely and confidently in a broader range of
+            challenging conditions.
             <br />
           </span>
         </div>
@@ -62,7 +72,7 @@ const PPL = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PPL
+export default IR;

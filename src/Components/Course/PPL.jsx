@@ -1,11 +1,11 @@
-import React from "react";
-import image from '../images/spl.jpg'
+import React from 'react'
 
-const APL = () => {
+
+const PPL = () => {
   return (
     <div className="w-[1436px] h-[1390px] relative bg-white">
-      <div className="w-[700px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins'] items-center justify-center">
-      <h1 className="font-bold text-2xl">The Airline Transport Pilot License (ATPL)</h1>
+      <div className="w-[400px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins']">
+      <h1 className="font-bold text-2xl">Private Pilot License</h1>
       </div>
       <img
         className="w-[595px] h-[359px] left-[420px] top-[132px] absolute rounded-[30px]"
@@ -18,12 +18,7 @@ const APL = () => {
             Course Overview: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            The Airline Transport Pilot License (ATPL) Program is an advanced
-            and comprehensive training course designed for experienced pilots
-            aiming to reach the pinnacle of their aviation careers. This program
-            prepares candidates to operate as captains or first officers of
-            large commercial aircraft, demonstrating mastery in complex and
-            demanding flight environments.
+          The Private Pilot License (PPL) Training Program is designed for individuals with a Student Pilot License (SPL) aspiring to elevate their skills and obtain the PPL, a key milestone in becoming a licensed pilot. This comprehensive program encompasses theoretical and practical aspects of aviation to ensure candidates develop the knowledge and skills necessary for safe and confident flying.
           </span>
         </div>
       </div>
@@ -34,17 +29,17 @@ const APL = () => {
             Course Modules: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            -Eligibility Criteria
+            -Flight Training Hours
             <br />
-            -Advanced Training Programs
+            -Aeronautical Knowledge
             <br />
-            -Theoretical Knowledge Examinations
+            -Written Examinations Preparation
             <br />
             -Practical Flight Training
             <br />
-            -Simulated Flight Scenarios
+            -Skills and Judgment Development
             <br />
-            -Leadership and Teamwork Evaluation
+            -Regulatory Compliance
           </span>
         </div>
       </div>
@@ -55,14 +50,7 @@ const APL = () => {
             Course Outcome: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            Upon successful completion of the ATPL Program, candidates are
-            awarded the prestigious Airline Transport Pilot License. This
-            qualification opens doors to diverse career opportunities, including
-            roles as airline pilots, corporate pilots, flight instructors, and
-            other high-level positions within the aviation industry. The ATPL
-            represents the pinnacle of a pilot's journey, signifying mastery,
-            professionalism, and the highest level of responsibility in
-            aviation.
+          Upon successful completion of the program, candidates will have met the requirements for the Private Pilot License. Graduates gain the privilege to serve as pilot-in-command for personal or recreational flights, marking a significant achievement in their aviation journey. This PPL serves as a foundation for advanced certifications, allowing individuals to pursue diverse opportunities in aviation, from leisure flying to potential career paths.
             <br />
           </span>
         </div>
@@ -74,7 +62,7 @@ const APL = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default APL;
+export default PPL

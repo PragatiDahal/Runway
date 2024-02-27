@@ -1,11 +1,11 @@
 import React from "react";
-import image from '../images/spl.jpg'
 
-const IR = () => {
+
+const NR = () => {
   return (
     <div className="w-[1436px] h-[1390px] relative bg-white">
-      <div className="w-[300px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins']">
-      <h1 className="font-bold text-2xl">Instrument Rating</h1>
+      <div className="w-[281px] h-[35px] left-[577px] top-[69px] absolute text-fuchsia-950 text-xl font-bold font-['Poppins'] items-center justify-center">
+      <h1 className="font-bold text-2xl">Night Rating</h1>
       </div>
       <img
         className="w-[595px] h-[359px] left-[420px] top-[132px] absolute rounded-[30px]"
@@ -18,12 +18,13 @@ const IR = () => {
             Course Overview: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            The Instrument Rating (IR) Program is designed for pilots seeking
-            advanced qualifications to navigate and operate aircraft solely by
-            reference to instruments, without relying on external visual cues.
-            This program enhances pilots' abilities to safely fly in various
-            weather conditions, including low visibility, clouds, and adverse
-            weather.
+            The Night Rating (NR) Training Program is designed for pilots
+            holding a valid Private Pilot License (PPL) or higher certification,
+            aiming to enhance their capabilities by allowing them to fly
+            aircraft at night under visual flight rules (VFR). This program
+            provides comprehensive training in night-specific skills, ensuring
+            pilots can safely navigate and operate an aircraft in low-light
+            conditions.
           </span>
         </div>
       </div>
@@ -34,15 +35,17 @@ const IR = () => {
             Course Modules: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            -Theoretical Knowledge
+            -Night Flying Essentials
             <br />
-            -Cockpit Instrumentation
+            -Navigation Techniques
             <br />
-            -Practical Flight Training
+            -Night Takeoffs and Landings
             <br />
-            -Simulated Weather Conditions
+            -Emergency Procedures at Night
             <br />
-            -Air Traffic Control Interaction
+            -Ground Instructiont
+            <br />
+            -Flight Training
           </span>
         </div>
       </div>
@@ -53,15 +56,14 @@ const IR = () => {
             Course Outcome: <br />
           </span>
           <span className="text-black text-lg font-normal font-['Poppins']">
-            Upon successful completion of both theoretical exams and practical
-            flight tests, pilots receive the Instrument Rating, unlocking the
-            capability to fly in conditions that would otherwise be unsafe for
-            visual flight. This qualification is essential for professional
-            pilots operating in diverse weather conditions and private pilots
-            aiming to enhance proficiency and safety margins. The IR Program
-            represents a significant advancement in flying skills, enabling
-            pilots to operate safely and confidently in a broader range of
-            challenging conditions.
+            Upon successful completion of the Night Rating training and a
+            proficiency checkride, pilots receive the endorsement on their
+            license. This endorsement allows them to fly at night within the
+            specified limitations by aviation authorities, expanding their
+            flying capabilities and providing opportunities for unique and
+            enjoyable night flying experiences. The Night Rating is a valuable
+            addition for pilots seeking to broaden their aviation expertise and
+            versatility.
             <br />
           </span>
         </div>
@@ -76,4 +78,4 @@ const IR = () => {
   );
 };
 
-export default IR;
+export default NR;

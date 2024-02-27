@@ -1,7 +1,7 @@
 
 import './App.css'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 import Homepage from './Components/Homepage'
 import Course from './Components/Course'
 import Service from './Components/Service'
@@ -9,15 +9,15 @@ import About from './Components/About'
 import Blog from './Components/Blog'
 import Gallery from './Components/Gallery'
 import Contact from './Components/Contact'
-import Footer from './Components/Footer'
-import SPL from './Components/SPL'
-import PPL from './Components/PPL'
-import NR from './Components/NR'
+import Footer from './Components/Footer/Footer'
+import SPL from './Components/Course/SPL'
+import PPL from './Components/Course/PPL'
+import NR from './Components/Course/NR'
 import Hour from './Components/Hour'
-import APL from './Components/APL'
-import CPL from './Components/CPL';
-import IR from './Components/IR';
-import MER from './Components/MER'
+import APL from './Components/Course/APL'
+import CPL from './Components/Course/CPL';
+import IR from './Components/Course/IR';
+import MER from './Components/Course/MER'
 
 
 function App() {

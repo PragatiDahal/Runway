@@ -1,6 +1,4 @@
-import React from "react";
-import image from "../images/spl.jpg";
-import { Link } from "react-router-dom";
+
 const SPL = () => {
   return (
     <div className="w-[1580px] h-[999px] relative bg-white">
