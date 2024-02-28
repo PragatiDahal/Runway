@@ -1,11 +1,17 @@
 import React from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Card = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className='flex flex-row gap-4 flex-wrap justify-center items-center'>
-      <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
-  <div
+      <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96" data-aos="fade-up" data-aos-duration="2000">
+  <div 
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
       src="https://i.pinimg.com/564x/f8/2c/df/f82cdf809219fb9aa4c58a2125018706.jpg"
@@ -28,7 +34,7 @@ const Card = () => {
   </div>
 </div> 
 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96" data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
@@ -52,7 +58,7 @@ const Card = () => {
   </div>
 </div> 
 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
@@ -76,7 +82,7 @@ const Card = () => {
   </div>
 </div> 
 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96" data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
@@ -100,7 +106,7 @@ const Card = () => {
   </div>
 </div> 
 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
@@ -123,7 +129,7 @@ const Card = () => {
     </button>
   </div>
 </div> 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
@@ -146,7 +152,7 @@ const Card = () => {
     </button>
   </div>
 </div> 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img
@@ -169,7 +175,7 @@ const Card = () => {
     </button>
   </div>
 </div> 
-<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+<div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"data-aos="fade-up" data-aos-duration="2000">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img

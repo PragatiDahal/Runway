@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function App() {
   return (
     <footer
-      className="bg-[#5E1675] text-center text-slate-100 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+      className="bg-[#64003E] text-center text-slate-100 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="mr-12 hidden lg:block">
@@ -201,7 +201,7 @@ export default function App() {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-[#8E7AB5] p-6 text-center dark:bg-neutral-700">
+      <div className="bg-[#974b7a] p-6 text-center dark:bg-neutral-700">
         <span>© 2024 Copyright:</span>
         <a
           className="font-semibold text-slate-100 dark:text-neutral-400"

@@ -1,62 +1,71 @@
-import React from 'react'
-import image from '../images/aero.jpg'
-import Region from './Region'
+import React from "react";
+import image from "../images/aero.jpg";
+import Region from "./Region";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-    <div className="self-stretch overflow-hidden flex flex-col items-center justify-start pt-[70px] pb-[163px] pr-[114px] pl-[62px] box-border gap-[73px] max-w-full z-[1] text-justify text-base text-fuchsia-950 font-poppins mq450:gap-[18px] mq450:pt-[29px] mq450:pr-5 mq450:pb-[69px] mq450:box-border mq750:gap-[36px] mq750:pl-[31px] mq750:pr-[57px] mq750:box-border mq1050:pt-[45px] mq1050:pb-[106px] mq1050:box-border">
-      <div className="w-[646px] flex flex-row items-start justify-end max-w-full">
-        <div className="w-[595px] flex flex-col items-center justify-start gap-[38px] max-w-full mq750:gap-[19px]">
-          <b className="w-[169px] h-7 relative inline-block shrink-0">
-            <span>About</span>
-            <span className="text-black"> Runway</span>
-          </b>
-          <b className="self-stretch h-[21px] relative text-sm inline-block text-black whitespace-pre-wrap">
-            RUNWAY 02 your dream builder established on a foundation of trust
-            and loyalty
-          </b>
+      <div className="flex justify-center py-5">
+        <h1
+          className="text-4xl font-bold"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+        About RUNWAY 02
+        </h1>
+      </div>
+      <div className="max-w-[1200px] mx-auto w-[1200px] bg-white rounded-xl py-20 px-5 top-[200px] shadow-md overflow-hidden md:max-w-[1200px]" data-aos="fade-up" data-aos-duration="2000">
+        <div className="md:flex">
+          <div className="md:shrink-0">
+            <img
+              className="h-[500px] w-[500px] object-cover md:h-[500px] md:w-[500px]"
+              src={
+                "https://images.unsplash.com/flagged/photo-1555685460-1d9cf532761b?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              }
+              alt=""
+            />
+          </div>
+          <div className="p-8">
+            
+            <a
+              href="#"
+              className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+            >
+              RUNWAY 02  your dream builder established on a foundation of trust and loyalty
+            </a>
+            <p className="mt-2 text-slate-500">
+              Welcome to Runway 02 Aviation Institute, where dreams take flight
+              and soar beyond horizons. With a legacy of excellence in aviation
+              education, Runway 02 is your gateway to a dynamic and rewarding
+              career in the skies. As a premier aviation institute, we are
+              committed to nurturing the next generation of aviation
+              professionals and empowering them to reach new heights of success.
+            </p>
+            <br />
+            <p className="mt-2 text-slate-500">
+              At Runway 02, we believe in the power of ambition, dedication, and
+              knowledge to transform dreams into reality. Our institute is
+              dedicated to providing comprehensive training programs that equip
+              students with the skills, expertise, and confidence to excel in
+              the competitive field of aviation. Whether you aspire to become a
+              pilot, aircraft engineer, air traffic controller, or aviation
+              manager, Runway 02 offers a diverse range of courses tailored to
+              meet your aspirations and goals.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-start gap-[45px] max-w-full text-mini text-black mq750:gap-[22px] mq1225:flex-wrap">
-        <img
-          className="h-[480px] flex-1 relative rounded-11xl max-w-full overflow-hidden object-cover min-w-[411px] mq750:min-w-full"
-          loading="eager"
-          alt=""
-          src={image}
-        />
-        <div className="h-[391px] w-[586px] relative inline-block shrink-0 min-w-[586px] max-w-full mq1050:min-w-full mq1225:flex-1">
-          <p className="m-0">
-            Welcome to Runway 02 Aviation Institute, where dreams take flight
-            and soar beyond horizons. With a legacy of excellence in aviation
-            education, Runway 02 is your gateway to a dynamic and rewarding
-            career in the skies. As a premier aviation institute, we are
-            committed to nurturing the next generation of aviation professionals
-            and empowering them to reach new heights of success.
-          </p>
-          <p className="m-0">
-            <b>&nbsp;</b>
-          </p>
-          <p className="m-0">
-            At Runway 02, we believe in the power of ambition, dedication, and
-            knowledge to transform dreams into reality. Our institute is
-            dedicated to providing comprehensive training programs that equip
-            students with the skills, expertise, and confidence to excel in the
-            competitive field of aviation. Whether you aspire to become a pilot,
-            aircraft engineer, air traffic controller, or aviation manager,
-            Runway 02 offers a diverse range of courses tailored to meet your
-            aspirations and goals.
-          </p>
-        </div>
-      </div>
-    </div>
-    <section>
-      <Region />
+      <section>
+        <Region />
       </section>
     </>
   );
 };
 
-
-
-export default About
+export default About;

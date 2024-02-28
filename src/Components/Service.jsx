@@ -68,7 +68,7 @@ const Service = () => {
         className="bg-[#fefaf0]"
         heading="Post-Arrival Support"
         description="Runway 02 Aviation Institute continues to support students after their arrival abroad, providing assistance with settling into their new environment, resolving any initial challenges, and adjusting to academic and cultural differences."
-        thumbnailSrc="https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        thumbnailSrc="https://images.unsplash.com/photo-1522474252234-127492dde7f4?q=80&w=2055&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
       <Cards
         className="bg-[#f3faff]"

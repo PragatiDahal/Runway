@@ -9,31 +9,31 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="bg-gray-800 p-4 font-poppins z-20">
+      <nav className="bg-[#64003E] p-4 font-poppins z-20">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Link to="/" className="text-white text-xl font-bold hover:text-blue-400 transition ease-in duration-200">
+          <Link to="/" className="text-white text-xl font-bold hover:text-[#F36DC0] transition ease-in duration-200">
             Runway 02
           </Link>
         </div>
 
         <div className="hidden md:flex space-x-8 ">
-          <Link to="/" className="text-white hover:text-blue-400 transition ease-in duration-200 ">
+          <Link to="/" className="text-white hover:text-[#F36DC0] transition ease-in duration-200 ">
             Home
           </Link>
-          <Link to="/service" className="text-white hover:text-blue-400 transition ease-in duration-200">
+          <Link to="/service" className="text-white hover:text-[#F36DC0] transition ease-in duration-200">
             Services
           </Link>
-          <Link to="/course" className="text-white hover:text-blue-400 transition ease-in duration-200">
-            Course
+          <Link to="/course" className="text-white hover:text-[#F36DC0] transition ease-in duration-200">
+            Courses
           </Link>
-          <Link to="/about" className="text-white hover:text-blue-400 transition ease-in duration-200">
+          <Link to="/about" className="text-white hover:text-[#F36DC0] transition ease-in duration-200">
             About
           </Link>
-          <Link to="/gallery" className="text-white hover:text-blue-400 transition ease-in duration-200">
+          <Link to="/gallery" className="text-white hover:text-[#F36DC0] transition ease-in duration-200">
             Gallery
           </Link>
-          <Link to="/contact" className="text-white hover:text-blue-400 transition ease-in duration-200">
+          <Link to="/contact" className="text-white hover:text-[#F36DC0] transition ease-in duration-200">
             Contact
           </Link>
         </div>

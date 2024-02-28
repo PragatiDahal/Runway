@@ -10,60 +10,52 @@ const Admission = () => {
   }, []);
   return (
     <>
-      <div data-aos= "fade-up" data-duration-aos="2000" className="w-[1502px] h-[756px] relative bg-white pt-7">
-        <img
-          className="w-[643px] h-[423px] left-[796px] top-[150px] absolute transition ease-in-out delay-150  hover:scale-110  duration-300"
-          src={"https://i.pinimg.com/564x/e7/c4/fe/e7c4fe825aa8ca7cababb2e4956c2b1f.jpg"}
-        />
-        <div data-aos="zoom-in" data-duration-aos="2000" className="pl-24 relative top-10 ">
-          <span className="text-fuchsia-950 text-[40px] font-bold font-poppins underline underline-offset-8">
-            ADMISSION  ON RUNWAY 02 </span>
-        </div>
-    
-        <div className="w-[369px] h-[34px] left-[97px] top-[150px] absolute text-justify text-black text-2xl font-bold font-poppins">
-          Basic Criteria to join aviation
-        </div>
-        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[100px] left-[75px] top-[226px] absolute bg-pink-100 rounded-xl">
-          <div className="w-[535px] h-[73px] left-[27px] top-[13px] absolute text-justify">
-            <span className="text-black text-xl font-bold font-poppins">
-              Education:</span>
-              <span className="text-black text-xl font-normal font-poppins">
-               Completion of the +2 level (or equivalent) with a focus on physics
-              and mathematics.
-            </span>
+      
+      <div className="flex justify-center py-5">
+        <h1
+          className="text-4xl font-bold"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+        Admission on RUNWAY 02
+        </h1>
+      </div>
+      <div className="max-w-[1200px] mx-auto w-[1200px] bg-white rounded-xl py-20 px-5 top-[200px] shadow-md overflow-hidden md:max-w-[1200px]" data-aos="fade-up" data-aos-duration="2000">
+        <div className="md:flex">
+          <div className="md:shrink-0">
+            <img
+              className="h-[500px] w-[500px] object-cover md:h-[500px] md:w-[500px] transition hover:scale-100"
+              src={
+                "https://i.pinimg.com/564x/e7/c4/fe/e7c4fe825aa8ca7cababb2e4956c2b1f.jpg"
+              }
+              alt=""
+            />
           </div>
-        </div>
-        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[70px] left-[75px] top-[352px] absolute bg-pink-100 rounded-xl">
-          <div className="w-[478px] h-[37px] left-[27px] top-[16px] absolute text-justify">
-            <span className="text-black text-xl font-bold font-poppins">
-              Age:
-            </span>
-            <span className="text-black text-xl font-normal font-poppins">
-              Must be 18 years or older.
-            </span>
-          </div>
-        </div>
-        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[70px] left-[75px] top-[448px] absolute bg-pink-100 rounded-xl">
-          <div className="w-[438px] h-[33px] left-[22px] top-[18px] absolute text-justify">
-            <span className="text-black text-xl font-bold font-poppins">
-              Language Proficiency:
-              
-            </span>
-            <span className="text-black text-xl font-normal font-poppins">
-              Fluency in English.
-            </span>
-          </div>
-        </div>
-        <div data-aos= "fade-up" data-duration-aos="2000" className="w-[589px] h-[105px] left-[75px] top-[560px] absolute bg-pink-100 rounded-xl">
-          <div className="w-[527px] h-[87px] left-[22px] top-[9px] absolute text-justify">
-            <span className="text-black text-xl font-bold font-poppins">
-              Medical Examination:
-              
-            </span>
-            <span className="text-black text-xl font-normal font-poppins">
-              Must pass an aviation medical examination conducted by a
-              designated aviation medical examiner.
-            </span>
+          <div className="p-8">
+            
+            <a
+              href="#"
+              className="block mt-1 text-2xl leading-tight font-bold text-black hover:underline py-5"  data-aos="fade-up" data-aos-duration="2000"
+            >
+             Basic Criteria to join aviation
+            </a>
+            <p className="mt-2 text-black"  data-aos="fade-up" data-aos-duration="2000">
+             <span className="text-xl font-bold">Education: </span> 
+             <span className="text-lg">Completion of the +2 level (or equivalent) with a focus on physics and mathematics.</span>
+             <br/>
+             <br/>
+             <span className="text-xl font-bold"> Age: </span> 
+             <span className="text-lg">Must be 18 years or older.</span>
+             <br/>
+             <br/>
+             <span className="text-xl font-bold">Language Proficiency:</span>
+             <span className="text-lg"> Fluency in English.</span>
+             <br/>
+             <br/>
+             <span className="text-xl font-bold">Medical Examination:</span>
+             <span className="text-lg">Must pass an aviation medical examination conducted by a designated aviation medical examiner.</span>
+            </p>
+            <br />
           </div>
         </div>
       </div>
