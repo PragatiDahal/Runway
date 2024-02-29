@@ -10,7 +10,7 @@ const Admission = () => {
   }, []);
   return (
     <>
-      <div className="flex justify-center py-5">
+      <div className="flex justify-center pl-5 sm:pl-3 py-5">
         <h1
           className="text-4xl font-bold"
           data-aos="zoom-in"
