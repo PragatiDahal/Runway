@@ -12,8 +12,8 @@ const Blog = () => {
       <div className="flex justify-center py-5">
         <h1 className="text-4xl font-bold" data-aos="zoom-in" data-aos-duration="2000"> From the Blog</h1>
       </div>
-      <section className="flex flex-row flex-wrap justify-center gap-4 py-8">
-        <div className="flex gap-4 justify-center bg-zinc-200 rounded-xl h-[500px] w-[450px] flex-wrap "data-aos="fade-up" data-aos-duration="2000">
+      <section className="flex flex-row flex-wrap justify-center gap-6 py-8">
+        <div className="flex gap-4 justify-center bg-zinc-200 rounded-xl h-[505px] w-[450px] flex-wrap "data-aos="fade-up" data-aos-duration="2000">
           <img
             className="rounded-lg w-[450px] h-[250px] object-cover transition hover:scale-90 duration-1000"
             src={
@@ -22,10 +22,10 @@ const Blog = () => {
             alt=""
             srcset=""
           />
-          <div className=" flex  justify-center text-xl font-bold text-[#64003E]" >
+          <div className=" flex  justify-center text-xl font-bold text-[#64003E] " >
             Top ten reasons to join aviation
           </div>
-          <div className="justify-center text-justify text-base text-black top-[500px] pl-4 pr-4">
+          <div className="justify-center text-justify text-base text-black top-[500px] pl-5 pr-5 sm:pl-4 sm:pr-4">
             Are you dreaming of soaring through the skies, exploring new
             horizons, and experiencing the thrill of flight? A career in
             aviation could be your ticket to turning those dreams into
@@ -34,7 +34,7 @@ const Blog = () => {
             experiences like no other.
           </div>
         </div>
-        <div className="flex gap-4 justify-center bg-zinc-200 rounded-xl h-[500px] w-[450px] flex-wrap" data-aos="fade-up" data-aos-duration="2000">
+        <div className="flex gap-4 justify-center bg-zinc-200 rounded-xl h-[505px] w-[450px] flex-wrap" data-aos="fade-up" data-aos-duration="2000">
           <img
             className="rounded-lg w-[450px] h-[250px] object-cover transition hover:scale-90 duration-1000"
             src={
@@ -46,7 +46,7 @@ const Blog = () => {
           <div className="flex justify-center text-xl font-bold text-[#64003E]">
             Breaking Barriers: Women in Aviation
           </div>
-          <div className="justify-center text-justify text-base text-black top-[500px] pl-4 pr-4">
+          <div className="justify-center text-justify text-base text-black top-[500px] pl-5 pr-5 sm:pl-4 sm:pr-4">
             In an industry historically dominated by men, women are increasingly
             taking to the skies and breaking barriers in the world of aviation.
             From pioneering aviators to modern-day pilots, engineers, and
@@ -63,10 +63,10 @@ const Blog = () => {
             alt=""
             srcset=""
           />
-          <div className="flex justify-center text-xl font-bold text-[#64003E] pl-4 pr-4">
+          <div className="flex justify-center text-xl font-bold text-[#64003E] pl-5 pr-5 sm:pl-4 sm:pr-4">
             The Future of Aviation: Trends and Innovations
           </div>
-          <div className="justify-center text-justify text-base text-black top-[500px] pl-4 pr-4">
+          <div className="justify-center text-justify text-base text-black top-[500px] pl-5 pr-5 sm:pl-4 sm:pr-4">
             What does the future hold for aviation? As technology advances and
             global travel evolves, the aviation industry is poised for
             transformative changes. Let's take a closer look at some of the key
