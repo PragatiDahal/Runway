@@ -12,7 +12,7 @@ const Blog = () => {
     <div className="flex justify-center py-8">
         <h1 className="text-4xl font-bold" data-aos="zoom-in" data-aos-duration="2000"> From the Blog</h1>
       </div>
-      <div className="flex flex-row gap-6 flex-wrap justify-center items-center">
+      <div className="flex flex-row gap-6 flex-wrap justify-center items-center py-5">
         <div
           className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96"
           data-aos="fade-up"
