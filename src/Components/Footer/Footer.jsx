@@ -87,9 +87,7 @@ export default function App() {
               Runway 02
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
+            RUNWAY 02  your dream builder established on a foundation of trust and loyalty.
             </p>
           </div>
           {/* <!-- Products section --> */}
@@ -99,20 +97,29 @@ export default function App() {
               Main 
             </h6>
             <p className="mb-4">
-              <a href='/service' className="text-slate-100 dark:text-neutral-200"
-              >Blogs</a>
+              <Link to="/Blog">
+              <button className="text-slate-100 dark:text-neutral-200"
+              >Blogs</button>
+              </Link>
             </p>
             <p className="mb-4">
-              <a className="text-slate-100 dark:text-neutral-200"
-              >Flight</a>
+            <Link to="/Contact">
+              <button className="text-slate-100 dark:text-neutral-200"
+              >Contact</button>
+              </Link>
             </p>
+            
             <p className="mb-4">
-              <a className="text-slate-100 dark:text-neutral-200"
-              >Region</a>
+            <Link to="/About">
+              <button className="text-slate-100 dark:text-neutral-200"
+              >Region</button>
+              </Link>
             </p>
             <p>
-              <a className="text-slate-100 dark:text-neutral-200"
-              >Gallery</a>
+              <Link to="/Gallery">
+              <button className="text-slate-100 dark:text-neutral-200"
+              >Gallery</button>
+              </Link>
             </p>
           </div>
           {/* <!-- Useful links section --> */}

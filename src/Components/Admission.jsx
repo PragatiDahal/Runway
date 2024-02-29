@@ -20,7 +20,7 @@ const Admission = () => {
         </h1>
       </div>
       <div
-        className="max-w-[1200px] mx-auto bg-white rounded-xl py-10 px-4 md:px-8 shadow-md overflow-hidden"
+        className="max-w-[1200px] mx-auto bg-white rounded-xl  py-10 px-4 md:px-8 shadow-md overflow-hidden"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
